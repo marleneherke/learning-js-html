@@ -1,0 +1,10 @@
+{
+    "cantidad": 5,
+    "nombre": "naranja",
+    "origin": "Spain",
+    "atributos": {
+        "peso": 5,
+        "color": "naranja oscuro",
+        "sabor": "dulce"
+    }
+}
