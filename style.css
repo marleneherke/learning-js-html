@@ -1,0 +1,92 @@
+/* variables*/
+:root {
+  --colorFondo: rgba(133, 119, 193, 0.604);
+  --colorTexto: #444444;
+  --colorBorde: whitesmoke;
+}
+
+/* generales */
+body {
+  height: 100vh;
+  color: var(--colorTexto);
+  background: no-repeat
+    linear-gradient(
+      to right,
+      rgb(153, 185, 245),
+      rgb(133, 119, 193),
+      rgb(153, 185, 245)
+    );
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+
+/* titulos */
+#titulo {
+  background-color: var(--colorFondo);
+  box-shadow: 2px 2px 6px gray;
+  text-align: center;
+  font-size: 40px;
+  margin: 30px 10px;
+  padding: 30px;
+  border: 2px solid var(--colorBorde);
+  border-radius: 15px;
+}
+
+/* to-do-list */
+#listaDeTareas {
+  list-style: none;
+  text-align: left;
+  padding: 0; 
+  margin: 0 auto;
+  width: 550px;
+}
+
+li {
+  padding: 5px 8px;
+  background-color: #dedede;
+  margin: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.btn-delete {
+    background: #e05f6b;
+    color: #444;
+    margin: 0 5px;
+    border: 2px solid #b10909;
+    border-radius: 5px;
+}
+
+.btn-delete:hover{
+    background-color: #b10909 ;
+    color: rgb(207, 202, 202);
+}
+
+.btn-check {
+    background: #1aac74;
+    color: #444;
+    margin: 0 5px;
+    border: 2px solid #02361a;
+    border-radius: 5px;
+}
+
+.btn-check:hover{
+    background: #04602f;
+    color: rgb(215, 223, 216);
+}
+
+/* button */
+#btnAgregar {
+  background-color: var(--colorFondo);
+  padding: 10px 70px;
+  margin: 20px 0;
+  font-size: 15px;
+  border: 2px solid var(--colorBorde);
+  border-radius: 15px;
+}
+
+#btnAgregar:hover {
+  color: #555555;
+  background-color: rgb(153, 185, 245);
+  box-shadow: 2px 2px 6px gray;
+}
